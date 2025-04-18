@@ -15,3 +15,10 @@ env/
 # Sensitive files
 .env
 *.sqlite3
+# Ignore vectorstore
+vectorstores/
+data/
+*.pdf
+*.pkl
+*.bin
+
