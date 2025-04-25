@@ -7,8 +7,15 @@ __pycache__/
 .vscode/
 # Sensitive files
 .env
-# Ignore vectorstore
-vectorstores/
+
+# Ignore FAISS backups and temp files, but keep the actual DB
+# Allow db_faiss/ to be committed
+vectorstores/*
+!vectorstores/db_faiss/
+!vectorstores/db_faiss/**
+
+# Ignore other binary and pickle files if not needed
 *.pkl
 *.bin
-
+*.faiss
+*.json
