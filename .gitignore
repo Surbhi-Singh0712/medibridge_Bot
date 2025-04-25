@@ -10,5 +10,5 @@ __pycache__/
 # Ignore vectorstore
 vectorstores/
 *.pkl
-*.binadd
+*.bin
 
