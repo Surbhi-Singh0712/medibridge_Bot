@@ -9,8 +9,6 @@ __pycache__/
 .env
 # Ignore vectorstore
 vectorstores/
-data/
-*.pdf
 *.pkl
-*.bin
+*.binadd
 
