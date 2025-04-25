@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: medibridge-chatbot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: HUGGINGFACE_REPO_ID
+        value: mistralai/Mistral-7B-Instruct-v0.3
+      - key: HF_TOKEN
+        sync: false  # 👈 tells Render to NOT show this in GitHub
+ 
+

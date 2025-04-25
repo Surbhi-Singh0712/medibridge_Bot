@@ -1,20 +1,12 @@
 # Python cache
 __pycache__/
-*.pyc
-
-# Virtual environments
-venv/
-env/
 
 # System files
 .DS_Store
-
 # VS Code settings
 .vscode/
-
 # Sensitive files
 .env
-*.sqlite3
 # Ignore vectorstore
 vectorstores/
 data/
