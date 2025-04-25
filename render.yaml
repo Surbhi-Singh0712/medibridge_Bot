@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: medibridge-chatbot
+    name: Medibridge-Chatbot
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
